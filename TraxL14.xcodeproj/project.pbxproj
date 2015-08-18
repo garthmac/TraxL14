@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8876218A1AFD45F80025E474 /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887621891AFD45F80025E474 /* GPX.swift */; };
 		88EEDCA11AFAB69A00643AB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EEDCA01AFAB69A00643AB4 /* AppDelegate.swift */; };
 		88EEDCA31AFAB69A00643AB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EEDCA21AFAB69A00643AB4 /* ViewController.swift */; };
-		88EEDCA61AFAB69A00643AB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EEDCA41AFAB69A00643AB4 /* Main.storyboard */; };
 		88EEDCA81AFAB69A00643AB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EEDCA71AFAB69A00643AB4 /* Images.xcassets */; };
-		88EEDCAB1AFAB69A00643AB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EEDCA91AFAB69A00643AB4 /* LaunchScreen.xib */; };
 		88EEDCB71AFAB69A00643AB4 /* TraxL14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EEDCB61AFAB69A00643AB4 /* TraxL14Tests.swift */; };
+		88EEDCC11AFAB6F400643AB4 /* GPXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EEDCC01AFAB6F400643AB4 /* GPXViewController.swift */; };
+		88EEDCC31AFABD1200643AB4 /* MKGPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EEDCC21AFABD1200643AB4 /* MKGPX.swift */; };
+		88EEDCC71AFAD08300643AB4 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EEDCC61AFAD08300643AB4 /* ImageViewController.swift */; };
+		88F8CDC31AFADE6A00C285CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F8CDC21AFADE6A00C285CC /* Main.storyboard */; };
+		88F8CDCD1AFBC26C00C285CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88EEDCA91AFAB69A00643AB4 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		887621891AFD45F80025E474 /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
 		88EEDC9B1AFAB69A00643AB4 /* TraxL14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TraxL14.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		88EEDC9F1AFAB69A00643AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88EEDCA01AFAB69A00643AB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88EEDCA21AFAB69A00643AB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88EEDCA51AFAB69A00643AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88EEDCA71AFAB69A00643AB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		88EEDCAA1AFAB69A00643AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		88EEDCB01AFAB69A00643AB4 /* TraxL14Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraxL14Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EEDCB51AFAB69A00643AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88EEDCB61AFAB69A00643AB4 /* TraxL14Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraxL14Tests.swift; sourceTree = "<group>"; };
+		88EEDCC01AFAB6F400643AB4 /* GPXViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPXViewController.swift; sourceTree = "<group>"; };
+		88EEDCC21AFABD1200643AB4 /* MKGPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKGPX.swift; sourceTree = "<group>"; };
+		88EEDCC61AFAD08300643AB4 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		88F8CDC21AFADE6A00C285CC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		88F8CDCB1AFBC16100C285CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +85,12 @@
 		88EEDC9D1AFAB69A00643AB4 /* TraxL14 */ = {
 			isa = PBXGroup;
 			children = (
+				887621891AFD45F80025E474 /* GPX.swift */,
 				88EEDCA01AFAB69A00643AB4 /* AppDelegate.swift */,
-				88EEDCA21AFAB69A00643AB4 /* ViewController.swift */,
-				88EEDCA41AFAB69A00643AB4 /* Main.storyboard */,
-				88EEDCA71AFAB69A00643AB4 /* Images.xcassets */,
-				88EEDCA91AFAB69A00643AB4 /* LaunchScreen.xib */,
+				88EEDCC21AFABD1200643AB4 /* MKGPX.swift */,
+				88EEDCC01AFAB6F400643AB4 /* GPXViewController.swift */,
+				88EEDCC61AFAD08300643AB4 /* ImageViewController.swift */,
+				88F8CDC21AFADE6A00C285CC /* Main.storyboard */,
 				88EEDC9E1AFAB69A00643AB4 /* Supporting Files */,
 			);
 			path = TraxL14;
@@ -90,7 +99,10 @@
 		88EEDC9E1AFAB69A00643AB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				88EEDC9F1AFAB69A00643AB4 /* Info.plist */,
+				88F8CDCB1AFBC16100C285CC /* Info.plist */,
+				88EEDCA91AFAB69A00643AB4 /* LaunchScreen.xib */,
+				88EEDCA71AFAB69A00643AB4 /* Images.xcassets */,
+				88EEDCA21AFAB69A00643AB4 /* ViewController.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +173,7 @@
 				TargetAttributes = {
 					88EEDC9A1AFAB69A00643AB4 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 7P9362E76E;
 					};
 					88EEDCAF1AFAB69A00643AB4 = {
 						CreatedOnToolsVersion = 6.4;
@@ -192,8 +205,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88EEDCA61AFAB69A00643AB4 /* Main.storyboard in Resources */,
-				88EEDCAB1AFAB69A00643AB4 /* LaunchScreen.xib in Resources */,
+				88F8CDCD1AFBC26C00C285CC /* LaunchScreen.xib in Resources */,
+				88F8CDC31AFADE6A00C285CC /* Main.storyboard in Resources */,
 				88EEDCA81AFAB69A00643AB4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +226,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				88EEDCA31AFAB69A00643AB4 /* ViewController.swift in Sources */,
+				88EEDCC31AFABD1200643AB4 /* MKGPX.swift in Sources */,
 				88EEDCA11AFAB69A00643AB4 /* AppDelegate.swift in Sources */,
+				88EEDCC11AFAB6F400643AB4 /* GPXViewController.swift in Sources */,
+				88EEDCC71AFAD08300643AB4 /* ImageViewController.swift in Sources */,
+				8876218A1AFD45F80025E474 /* GPX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +253,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		88EEDCA41AFAB69A00643AB4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				88EEDCA51AFAB69A00643AB4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		88EEDCA91AFAB69A00643AB4 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -330,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,7 +351,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TraxL14/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -352,7 +363,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TraxL14/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -371,6 +384,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = TraxL14Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TraxL14.app/TraxL14";
@@ -386,6 +400,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = TraxL14Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TraxL14.app/TraxL14";
@@ -411,6 +426,7 @@
 				88EEDCBC1AFAB69A00643AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88EEDCBD1AFAB69A00643AB4 /* Build configuration list for PBXNativeTarget "TraxL14Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +435,7 @@
 				88EEDCBF1AFAB69A00643AB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
